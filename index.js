@@ -12,7 +12,7 @@ bot.on('message', msg => {
 
     if (msgText === '/start') {
         bot.sendSticker(chatId, 'https://cdn.cdnstep.com/veHqCAZALku5D0hmtCUf/4.thumb128.webp');
-        bot.sendMessage(chatId, `Hello, ${msg.from.first_name}!\n\Welcome to the test Telegram bot with a payment system using Telegram Stars.`);
+        bot.sendMessage(chatId, `Hello, ${msg.from.first_name}!\n\nWelcome to the test Telegram bot with a payment system using Telegram Stars.`);
     }
 
     console.log(msg);
